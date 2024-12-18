@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="HRMScenario1">
+<listeners>
+<listener class-name="com.listeners.ExtentITestNGListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Scenario">
+    <classes>
+      <class name="TestData.Logindataprovider"/>
+      <class name="ExcelOperations.ReadingfromExcelfile"/>
+      <class name="com.HRMprojectTest.LoginTest"/>
+    </classes>
+  </test> <!-- Scenario -->
+</suite> <!-- Suite -->
