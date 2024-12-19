@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listener class-name="com.listeners.ExtentITestNGListeners"></listener>
+</listeners>
+  <test thread-count="5" name="LoginPageTest">
+    <classes>
+      
+      <class name="com.HRMscenario2pagefactorys.tests.LoginPageTestPF"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="AdminPageTest">
+    <classes>
+      
+      
+      <class name="com.HRMscenario2pagefactorys.tests.AdminPageTestPF"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-19T10:24:53 IST" name="Suite" finished-at="2024-12-19T10:25:15 IST" duration-ms="21594">
+    <groups>
+    </groups>
+    <test started-at="2024-12-19T10:24:53 IST" name="LoginPageTest" finished-at="2024-12-19T10:25:03 IST" duration-ms="9373">
+      <class name="com.HRMscenario2pagefactorys.tests.LoginPageTestPF">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.HRMscenario2pagefactorys.tests.LoginPageTestPF@31bcf236]" started-at="2024-12-19T10:24:53 IST" name="setUp" finished-at="2024-12-19T10:25:01 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:1, instance:com.HRMscenario2pagefactorys.tests.LoginPageTestPF@31bcf236]" started-at="2024-12-19T10:25:01 IST" name="verifyTitle" finished-at="2024-12-19T10:25:01 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyLoginTest()[pri:2, instance:com.HRMscenario2pagefactorys.tests.LoginPageTestPF@31bcf236]" started-at="2024-12-19T10:25:01 IST" name="verifyLoginTest" finished-at="2024-12-19T10:25:03 IST" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.HRMscenario2pagefactorys.tests.LoginPageTestPF@31bcf236]" started-at="2024-12-19T10:25:03 IST" name="tearDown" finished-at="2024-12-19T10:25:03 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.HRMscenario2pagefactorys.tests.LoginPageTestPF -->
+    </test> <!-- LoginPageTest -->
+    <test started-at="2024-12-19T10:25:03 IST" name="AdminPageTest" finished-at="2024-12-19T10:25:15 IST" duration-ms="11816">
+      <class name="com.HRMscenario2pagefactorys.tests.AdminPageTestPF">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.HRMscenario2pagefactorys.tests.AdminPageTestPF@497486b3]" started-at="2024-12-19T10:25:03 IST" name="setUp" finished-at="2024-12-19T10:25:07 IST" duration-ms="3978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.HRMscenario2pagefactorys.tests.AdminPageTestPF@497486b3]" started-at="2024-12-19T10:25:07 IST" name="pageSetUp" finished-at="2024-12-19T10:25:09 IST" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="VerifyMenuCount()[pri:1, instance:com.HRMscenario2pagefactorys.tests.AdminPageTestPF@497486b3]" started-at="2024-12-19T10:25:09 IST" name="VerifyMenuCount" finished-at="2024-12-19T10:25:11 IST" duration-ms="1971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMenuCount -->
+        <test-method signature="searchbyName()[pri:2, instance:com.HRMscenario2pagefactorys.tests.AdminPageTestPF@497486b3]" started-at="2024-12-19T10:25:11 IST" name="searchbyName" finished-at="2024-12-19T10:25:13 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbyName -->
+        <test-method signature="selectByuserRole()[pri:3, instance:com.HRMscenario2pagefactorys.tests.AdminPageTestPF@497486b3]" started-at="2024-12-19T10:25:13 IST" name="selectByuserRole" finished-at="2024-12-19T10:25:14 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectByuserRole -->
+        <test-method signature="SelectByuserStatus()[pri:4, instance:com.HRMscenario2pagefactorys.tests.AdminPageTestPF@497486b3]" started-at="2024-12-19T10:25:14 IST" name="SelectByuserStatus" finished-at="2024-12-19T10:25:15 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectByuserStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.HRMscenario2pagefactorys.tests.AdminPageTestPF@497486b3]" started-at="2024-12-19T10:25:15 IST" name="tearDown" finished-at="2024-12-19T10:25:15 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.HRMscenario2pagefactorys.tests.AdminPageTestPF -->
+    </test> <!-- AdminPageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
